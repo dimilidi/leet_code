@@ -1,4 +1,4 @@
-package P4_BestTimeToBuyAndSellStocks;
+package P04_BestTimeToBuyAndSellStocks;
 
 public class BestTimeToBuyAndSellStocks {
 

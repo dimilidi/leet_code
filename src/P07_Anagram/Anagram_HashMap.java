@@ -1,4 +1,4 @@
-package P7_Anagram;
+package P07_Anagram;
 
 import java.util.HashMap;
 import java.util.Map;

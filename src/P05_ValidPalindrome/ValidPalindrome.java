@@ -1,4 +1,4 @@
-package P5_ValidPalindrome;
+package P05_ValidPalindrome;
 
 public class ValidPalindrome {
 

@@ -1,4 +1,4 @@
-package P3_MergeTwoSortedLists;
+package P03_MergeTwoSortedLists;
 
 public class MergeTwoSortedLists {
     public static void main(String[] args) {
@@ -73,7 +73,7 @@ public class MergeTwoSortedLists {
             System.out.print(node.val + " ");
             node = node.next;
         }
-        System.out.println(); // Print a newline at the end
+        System.out.println();
     }
 }
 

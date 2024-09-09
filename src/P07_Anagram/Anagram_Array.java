@@ -1,4 +1,4 @@
-package P7_Anagram;
+package P07_Anagram;
 
 public class Anagram_Array {
     public static void main(String[] args) {

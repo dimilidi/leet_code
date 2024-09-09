@@ -1,4 +1,4 @@
-package P6_InvertBinaryTree;
+package P06_InvertBinaryTree;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package P8_BinarySearch;
+package P08_BinarySearch;
 
 public class BinarySearch {
     public static void main(String[] args) {
