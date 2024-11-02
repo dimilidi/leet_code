@@ -2,28 +2,10 @@ package P16_DiameterOfBinaryTree;
 
 import static P16_DiameterOfBinaryTree.TreeNode.createBinaryTree;
 
-public class DiameterOfBinaryTree {
+public class DiameterOfBinaryTree_Recursion {
 
     // Variable to keep track of the maximum diameter found
     int diameter = 0;
-
-    public static void main(String[] args) {
-        DiameterOfBinaryTree tree = new DiameterOfBinaryTree();
-
-        // Sample input arrays to create binary trees
-        int[] arr = new int[]{1, 2, 3, 4, 5}; // A binary tree with nodes 1, 2, 3, 4, 5
-        int[] arr2 = new int[]{1, 2};         // A binary tree with nodes 1 and 2
-        TreeNode node_1 = createBinaryTree(arr, 0); // Create the first binary tree
-        TreeNode node_2 = createBinaryTree(arr2, 0); // Create the second binary tree
-
-        // Calculate the diameters for the two trees
-        int diameter1 = tree.findDiameter(node_1);
-        int diameter2 = tree.findDiameter(node_2);
-
-        // Print the results
-        System.out.println(diameter1);
-        System.out.println(diameter2);
-    }
 
     // Method to find the diameter of the binary tree
     public int findDiameter(TreeNode node) {
